@@ -30,7 +30,7 @@ public class CounterTest {
 
         Banknote banknote = counter.change(2030);
 
-        assertBanknote(banknote, 4, 0, 1, 1, 1);
+        assertBanknote(banknote, 4, 0, 0, 1, 1);
     }
 
     private void assertBanknote(Banknote banknote, int fiveHundred, int oneHundred, int fifty, int twenty, int ten) {
